@@ -1,0 +1,374 @@
+#heni {
+  color: rgb(7, 7, 241);
+  width: 1691px;
+  height: 781px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/027/254/720/small/colorful-ink-splash-on-transparent-background-png.png);
+}
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.image {
+  width: 1691px;
+  height: 781px;
+}
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+}
+
+/* body {
+background-color: black;
+} */
+
+#logo {
+  width: 268px;
+  height: 33px;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Roboto, "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: black;
+}
+
+.menu {
+  width: 252px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  cursor: pointer;
+}
+
+.drop-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 220px;
+  height: 220px;
+  box-shadow: 3px 10px 47px 6px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 3px 10px 47px 6px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 10px 47px 6px rgba(0, 0, 0, 0.4);
+  list-style: none;
+  margin-left: -100px;
+}
+.drop-menu-item {
+  line-height: 18px;
+  text-align: left;
+  color: #ababab;
+  height: 42px;
+  width: 229px;
+  margin-left: -35px;
+  padding: 12px 16px 12px 16px;
+}
+
+.drop-menu-item:hover {
+  color: #00b39b;
+  background-color: #ababab;
+}
+.menu-item:hover {
+  color: #003b9b;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#first-item {
+  margin-top: 10px;
+}
+
+main {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#section1 img {
+  width: 39px;
+  height: 40px;
+}
+#parag-countainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+#parag-countainer p {
+  width: 478px;
+  margin: 50px;
+}
+#section2 {
+  display: flex;
+}
+
+.card {
+  width: 312px;
+  height: 345px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card img {
+  height: 24px;
+  width: auto;
+  margin: 20px;
+}
+.card h1 {
+  margin: 0px 20px;
+}
+.card p {
+  margin: 20px;
+}
+.card select {
+  margin: 20px;
+}
+#green {
+  background-color: #00ccb1;
+}
+
+#green select {
+  background-color: #00ccb1;
+  color: white;
+}
+#blue {
+  background-color: #3d6eaf;
+}
+#blue select {
+  background-color: #3d83df;
+  color: white;
+}
+
+#black {
+  background-color: #1b2734;
+}
+#black select {
+  background-color: #1b2734;
+  color: white;
+}
+
+#section3 {
+  height: 156px;
+  width: 1015px;
+  padding: 0 20px 0 20px;
+  margin: 40px 167px 50px 167px;
+  display: flex;
+}
+
+#section3 h1 {
+  height: 102px;
+  width: 322px;
+  padding: 0 26px 0 0;
+  margin: 7px 0 9px 0;
+  color: #00b39b;
+}
+.sponlogo {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 160px;
+  width: 654px;
+}
+
+.sponlogo svg {
+  height: 20px;
+  width: auto;
+  margin: 0px 10px;
+  fill: #ababab;
+}
+.sponlogo img {
+  height: 24px;
+  width: auto;
+  filter: grayscale(100%);
+  margin: 0px 10px;
+}
+.sponlogo img:hover {
+  filter: grayscale(0%);
+}
+.sponlogo svg:hover {
+  fill: #00b39b;
+}
+#section4 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://cdn.discordapp.com/attachments/1093497830917816403/1108684129622564955/Sans_titre-2.png?ex=6555dd8e&is=6543688e&hm=87f0b8d950615182404c77f2e4fef005f538da441ec4f24b5d7f160b9d485b9b&);
+  background-size: 140%;
+  background-position-x: -160px;
+}
+#title-container {
+  height: 200px;
+  width: 500px;
+}
+#cards-container {
+  display: flex;
+
+  height: 560px;
+  width: 500px;
+}
+.card2 {
+  height: 260px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.column1 {
+  margin-top: 20px;
+}
+.card2 h1 {
+  color: #00b39b;
+  align-items: center;
+}
+.card2 p {
+  color: #747474;
+  align-items: center;
+}
+.card2 img {
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+#title-container h1 {
+  color: #00b39b;
+}
+#title-container p {
+  color: #747474;
+}
+#section5 {
+  height: 1687px;
+  width: 1015px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.header1 {
+  height: 173px;
+  width: 460px;
+}
+.header1 h1 {
+  height: 78px;
+  width: 460px;
+  color: #00b39b;
+}
+.header1 p {
+  height: 72px;
+  width: 460px;
+  color: #747474;
+}
+.body {
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pic1 {
+  height: 362px;
+  width: 332px;
+  display: flex;
+  flex-direction: column;
+}
+.pic1 img {
+  height: 280px;
+  width: 312px;
+  border-radius: 10px;
+}
+.pic1 div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.pic1 h1 {
+  color: #747474;
+}
+.pic1 div button {
+  background-color: blue;
+  border-radius: 10px;
+  color: #ababab;
+}
+#green:hover {
+  background-color: #58e0d1;
+}
+#blue:hover {
+  background-color: #557caf;
+}
+#black:hover {
+  background-color: #282c30;
+}
+#section6 {
+  height: 102px;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section6 h1 {
+  color: #333333;
+}
+#section6 button {
+  display: flex;
+  background-color: blue;
+  align-items: center;
+  height: 40px;
+  width: 211px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.pic1:hover {
+  box-shadow: 10px 7px 31px -3px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 10px 7px 31px -3px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 10px 7px 31px -3px rgba(0, 0, 0, 0.57);
+  border-radius: 10px;
+}
+.pic1 div button:hover {
+  background-color: rgb(57, 57, 180);
+}
+#section6 button:hover {
+  background-color: rgb(57, 57, 180);
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-footer:hover {
+  text-decoration: underline;
+}
